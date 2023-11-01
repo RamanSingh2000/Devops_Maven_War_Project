@@ -12,7 +12,7 @@ public class DevopsMavenProject13Application {
 
 	@GetMapping
 	public String message(){
-		return "Hello Dev Team,Deployment has been Successful.Website is running Successfully.Hey,Please look into it and inform us";
+		return "Hello Dev Team";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DevopsMavenProject13Application.class, args);
